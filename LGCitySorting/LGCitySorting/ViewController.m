@@ -21,6 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    NSLog(@"全国城市排序");
+    
     //打开数据库
     NSString *path = [[NSBundle mainBundle]pathForResource:@"china_cities.db" ofType:nil];
     
